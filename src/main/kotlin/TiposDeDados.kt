@@ -19,7 +19,7 @@ val dadosSistema : Pair< String,String> = Pair("meuemail@com", "senha123")
 val email = dadosSistema.first
 val senha = dadosSistema.second
 
-val cadastro: Triple< Int, Int, String> = Triple(1, 123123, "KaFukuda")
+val cadastro : Triple< Int, Int, String> = Triple(1, 123123, "KaFukuda")
 val id = cadastro.first
 val matricula = cadastro.second
 val user = cadastro.third
