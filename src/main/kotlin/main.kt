@@ -85,4 +85,8 @@ fun main() {
 
     5.ehPar()
     12.ehPar()
+
+
+    val teste = ErrorServer()
+    println(teste.msg)
 }
