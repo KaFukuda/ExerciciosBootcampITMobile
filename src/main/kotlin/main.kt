@@ -9,8 +9,7 @@ fun main() {
     println("Add spaghetti: ${entradas.add("spaghetti")}")
     println("Entradas: $entradas")
 
-    4.ehPar()
-    5.ehPar()
+
 
     val filme = Movie("Um Sonho de Liberdade", 1995 ,"Frank Darabont", 9.3)
     println(filme)
@@ -76,4 +75,14 @@ fun main() {
             println("Existe")
         } else println("Nao tem")
     }
+
+    receiveInt()
+    val karinaInitial = getInitial("karina")
+    println(karinaInitial)
+
+    val defaultInitial = getInitial()
+    println(defaultInitial)
+
+    5.ehPar()
+    12.ehPar()
 }
