@@ -3,6 +3,7 @@ fun main(){
     //contagemRegressiva(50)
     //contagemSemMultiplos5(30)
     //somaTotal(500)
+    //escadaHash(7)
 }
 
 fun contagem ( num: Int ){
@@ -30,4 +31,13 @@ fun somaTotal ( k: Int ){
         soma += k
     }
     println(soma)
+}
+
+fun escadaHash( l: Int){
+    for( l  in 1..l ){
+        for ( m in 1..l ){
+            print("#")
+        }
+        println()
+    }
 }
