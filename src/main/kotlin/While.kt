@@ -3,6 +3,7 @@ fun main(){
     //fizzBuzz()
     //inverteString(Karina Rocha")
     //println(analisaRepeticao("xxooxxo"))
+    investimentos()
 }
 
 fun calculaBexigaEmCxAgua(){
@@ -50,4 +51,21 @@ fun analisaRepeticao( str: String): Boolean{
         i++
     }
     return countX == countO && countX != 0
+}
+
+fun investimentos(){
+    var mes = 0
+    val salario = 10000f
+    var patAna = 0f
+    var patPaula = 0f
+    val investimentoEmpresa = salario * 0.05f
+
+    do {
+        patAna += ((investimentoEmpresa + investimentoEmpresa) + (patAna * 0.002f))
+        patPaula += (salario * 0.05f) + (patPaula * 0.008f)
+        mes++
+    }while (patAna > patPaula)
+    println("O patrimonio da Ana é de : $patAna")
+    println("O patrimonio da Paula é de : $patPaula")
+    println("Paula vai superar o patrimonio de Ana no mes $mes")
 }
